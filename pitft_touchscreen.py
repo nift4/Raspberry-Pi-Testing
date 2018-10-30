@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# github.com/PzremoF/pitft_touchscreen
+# github.com/PrzemoF/pitft_touchscreen
 #  piTFT touchscreen handling using evdev
 
 try:

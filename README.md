@@ -19,17 +19,17 @@ sudo python3 test.py
 ```
 
 ## Requirements
-"pitftscreen.py" from [my repo PiTFT_Screen](https://github.com/nift4/PiTFT_Screen)
+"pitftscreen.py" from [my repo PiTFT_Screen](https://github.com/nift4/PiTFT_Screen) required for test.py
 
-"pitft_touchscreen.py" from [my repo pitft_touchscreen](https://github.com/nift4/pitft_touchscreen)
+"pitft_touchscreen.py" from [my repo pitft_touchscreen](https://github.com/nift4/pitft_touchscreen) required for sdl.py and sdlkit.py
 
-"pigame.py" from [my repo pigame](https://github.com/nift4/pigame)
+"pigame.py" from [my repo pigame](https://github.com/nift4/pigame) required for sdl.py and sdlkit.py
 
-evdev from pip3: "sudo pip3 install evdev"
+evdev from pip3: "sudo pip3 install evdev" required for sdl.py and sdlkit.py
 
-pygame from apt: "sudo apt install python3-pygame"
+pygame from apt: "sudo apt install python3-pygame" required for sdl.py and sdlkit.py
 
-pigameui:
+pigameui: required for sdlkit.py
 ```
 git clone https://github.com/nift4/pigameui.git
 cd pigameui

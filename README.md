@@ -23,3 +23,10 @@ sudo python3 test.py
 evdev from pip3: "sudo pip3 install evdev"
 
 pygame from apt: "sudo apt install python3-pygame"
+
+pigameui:
+```
+git clone https://github.com/nift4/pigameui.git
+cd pigameui
+sudo python3 setup.py install
+```

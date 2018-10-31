@@ -9,7 +9,7 @@ os.putenv('SDL_MOUSEDRV','dummy')
 os.putenv('SDL_MOUSEDEV','/dev/null')
     
 pygame.init()
-pigame.init(270)
+pigame.init()
 pygame.mouse.set_visible(True)
 lcd = pygame.display.set_mode((320, 240))
 lcd.fill((0,0,0))

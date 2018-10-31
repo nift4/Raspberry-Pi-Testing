@@ -2,6 +2,11 @@
 My tests with my pi3 + AdaFruit pitft+ 2.8" capatitive
 ## Function
 WARNING: It must be as root.
+### sdlkit.py
+Run pygameui :)!!
+```
+sudo python3 sdlkit.py
+```
 ### sdl.py
 A simple ui for log and shutdown.
 ```

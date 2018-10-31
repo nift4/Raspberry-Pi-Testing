@@ -1,4 +1,4 @@
-from pitftgpio import PiTFT_GPIO as PiTFT
+from pitftscreen import PiTFT_GPIO as PiTFT
 import os
 pitft=PiTFT()
 try:

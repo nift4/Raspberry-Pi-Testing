@@ -24,7 +24,7 @@ sudo python3 test.py
 
 "pitft_touchscreen.py" from [my repo pitft_touchscreen](https://github.com/nift4/pitft_touchscreen) required for sdl.py and sdlkit.py
 
-"pigame.py" from [my repo pigame](https://github.com/nift4/pigame) required for sdl.py and sdlkit.py
+"pigame.py" from [my repo pigame](https://github.com/nift4/pigame/tree/old) required for sdl.py and sdlkit.py
 
 evdev from pip3: "sudo pip3 install evdev" required for sdl.py and sdlkit.py
 

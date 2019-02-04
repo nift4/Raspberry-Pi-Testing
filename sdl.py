@@ -9,7 +9,7 @@ os.putenv('SDL_MOUSEDRV','dummy')
 os.putenv('SDL_MOUSEDEV','/dev/null')
     
 pygame.init()
-pigame.init()
+pitft = pigame.PiTft()
 pygame.mouse.set_visible(True)
 lcd = pygame.display.set_mode((320, 240))
 lcd.fill((0,0,0))
@@ -27,7 +27,7 @@ for k,v in touch_buttons.items():
 pygame.display.update()
 try:
     while True:
-        pigame.run()
+        pitft.update()
         # Scan touchscreen events
         for event in pygame.event.get():
             if(event.type is MOUSEBUTTONDOWN):
@@ -44,14 +44,14 @@ try:
                         print("4off")
                 else:
                     if x < 160:
-                        pigame.quit()
+                        del(pitft)
                         pygame.quit()
                         os.system("sudo poweroff")
                     else:
-                        pigame.quit()
+                        del(pitft)
                         pygame.quit()
                         import sys
                         sys.exit(0)
         sleep(0.1)
 except KeyboardInterrupt:
-    pigame.quit()
+    del(pitft)

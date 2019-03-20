@@ -54,4 +54,6 @@ try:
                         sys.exit(0)
         sleep(0.1)
 except KeyboardInterrupt:
+    pass
+finally:
     del(pitft)

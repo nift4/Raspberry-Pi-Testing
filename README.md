@@ -24,4 +24,4 @@ evdev from pip3: "sudo pip3 install evdev"
 
 pygame from apt: "sudo apt install python3-pygame"
 
-pigame (with pigameui): https://pigamedrv.github.io/userdoc/install.md
+pigame (with pigameui): https://pigamedrv.github.io/userdoc/install

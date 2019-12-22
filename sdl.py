@@ -46,11 +46,9 @@ try:
                         print("4off")
                 else:
                     if x < 160:
-                        del(pitft)
                         pygame.quit()
                         os.system("sudo poweroff")
                     else:
-                        del(pitft)
                         pygame.quit()
                         import sys
                         sys.exit(0)

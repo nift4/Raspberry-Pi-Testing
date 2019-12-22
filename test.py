@@ -1,6 +1,6 @@
-from pitftscreen import PiTFT_Screen as PiTFT
+from pigame import PiTft
 import os
-pitft=PiTFT()
+pitft=PiTft()
 try:
     while True:
         if pitft.Button1:

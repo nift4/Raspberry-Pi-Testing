@@ -13,7 +13,7 @@ A simple ui for log and shutdown.
 sudo python3 sdl.py
 ```
 ### test.py
-A button test: Button #22 and #23 are used to display images.
+A button test: Button #22 is used to display a image.
 Sorry that I don't given that images to you ;)
 ```
 sudo python3 test.py

@@ -12,7 +12,6 @@ os.putenv('DISPLAY','')
     
 pygame.init()
 pitft = pigame.PiTft()
-pygame.mouse.set_visible(True)
 lcd = pygame.display.set_mode((320, 240))
 lcd.fill((0,0,0))
 pygame.display.update()
